@@ -1,0 +1,5 @@
+.idea
+.settings
+
+south-america-latest.osm.pbf
+output/*.xml

@@ -1,0 +1,8 @@
+.idea
+.settings
+
+south-america-latest.osm.pbf
+*.osm
+
+input/
+output/
