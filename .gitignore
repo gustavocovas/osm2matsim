@@ -1,5 +1,7 @@
 .idea
 .settings
+.project
 
-south-america-latest.osm.pbf
+*.class
+*.osm.pbf
 output/*.xml
