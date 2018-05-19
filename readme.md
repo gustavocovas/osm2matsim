@@ -6,7 +6,7 @@ Based on section 7.2.1 from [the book](https://www.matsim.org/the-book) and on t
 
 
 # Prerequisites #
-A system with Docker installed.
+A system with Docker installed for converting OSM files into Matsim network files. Java for network visualization and editing with [networkEditor](https://www.matsim.org/extension/networkeditor).
 
 # Usage #
 1. Download the broad map files from http://download.geofabrik.de/
@@ -25,7 +25,12 @@ A system with Docker installed.
 
 4. Convert:
 ```
-./bin/run.sh input/fiandeiras.osm output/fiandeiras.xml
+./bin/convert.sh input/fiandeiras.osm output/fiandeiras.xml
+```
+
+5. (Optional) Visualize and edit network:
+```
+./bin/edit_network.sh
 ```
 
 ## Repository structure rationale ##
