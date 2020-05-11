@@ -1,0 +1,11 @@
+{
+  "summary": {
+    "title": "Threat test1",
+    "owner": "Gustavo",
+    "description": "A test for a threat model"
+  },
+  "detail": {
+    "contributors": [],
+    "diagrams": []
+  }
+}
