@@ -1,4 +1,5 @@
-FROM java:8
+#FROM java:8
+FROM eclipse-temurin:8-jdk-jammy
 
 RUN mkdir /osm2matsim
 WORKDIR /osm2matsim
