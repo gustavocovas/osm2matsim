@@ -4,4 +4,5 @@
 
 *.class
 *.osm.pbf
+input/*.osm
 output/*.xml
